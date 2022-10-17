@@ -2,7 +2,7 @@ const config = require("dotenv").config();
 const axios = require("axios");
 const { Telegraf, Context } = require("telegraf");
 
-const bot = new Telegraf(process.env.BOT_TOKEN);
+const bot = new Telegraf("5613802501:AAHfBx3VQCF83nZ5vKsoUKj98v_XC_GONEI");
 
 // ACCESS
 const cmd_register = `/register`;
